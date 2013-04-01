@@ -31,7 +31,8 @@ module Clearance
       end
 
       def normalize_email(email)
-        email.to_s.downcase.gsub(/\s+/, "")
+        # email.to_s.downcase.gsub(/\s+/, "")
+        email
       end
     end
 
